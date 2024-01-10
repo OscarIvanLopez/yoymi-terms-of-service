@@ -1,0 +1,103 @@
+html {
+    background-color: #24288f;
+}
+
+body {
+    background-color: #24288f !important;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-items: center;
+    background-color: #24288f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    background-color: #24288f;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #24288f;
+    bottom: 0;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.yoymi {
+    color: #ffda00;
+    font-weight: bold;
+}
+
+.yellow-btn {
+    background-color: #ffda00 !important;
+    border-color: #ffda00 !important;
+    font-weight: bold !important;
+}
+
+.page-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.page-container header {
+    height: 20%;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.yoymi-logo-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.yoymi-logo {
+    width: 30%;
+}
+
+.scrollable-card {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.container {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    padding: 100px;
+    width: 50%;
+}
